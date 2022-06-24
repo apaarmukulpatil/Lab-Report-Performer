@@ -1,0 +1,53 @@
+PDFName_TodaysDate_Timestamp(seconds)
+
+https://forms.gle/7wjzGZTxc4B34Duq7
+
+Patient Name: 
+in_TransactionItem.SpecificContent("Patient Name").ToString
+:MR AKASH PRAJAPATI
+
+Accession No:
+in_TransactionItem.SpecificContent("Accession Number").ToString
+0000799
+
+Age:
+in_TransactionItem.SpecificContent("Age/Sex").ToString.Split("/"c)(0)
+16Years / Male
+
+Sex:
+in_TransactionItem.SpecificContent("Age/Sex").ToString.Split("/"c)(1)
+16Years / Male
+
+Referred By:
+in_TransactionItem.SpecificContent("Referred By").ToString
+DR. SURESH PAWAR
+
+Reg Date:
+in_TransactionItem.SpecificContent("Registration Date").ToString
+2016-04-30
+
+Collection Date:
+in_TransactionItem.SpecificContent("Collection Date").ToString
+2016-04-30
+
+Report Date:
+in_TransactionItem.SpecificContent("Report Date").ToString
+2016-04-30
+
+Printed Date:
+in_TransactionItem.SpecificContent("Printed Date").ToString
+2022-05-27
+
+Center:
+in_TransactionItem.SpecificContent("Center").ToString
+NPL KOPARKHAIRANE
+
+Permanent:
+in_TransactionItem.SpecificContent("Permanent").ToString
+3985
+
+in_TransactionItem.SpecificContent("Upload File Path").ToString
+
+
+<div role="button" class="a-b-c d-u d-u-S" tabindex="0" style="user-select: none;" uipath_inframe_custom_id="2">Select files from your device</div>
+
